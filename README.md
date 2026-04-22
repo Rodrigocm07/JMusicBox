@@ -1,4 +1,4 @@
-\# 🎵 JMusicBox
+# 🎵 JMusicBox
 
 
 
@@ -8,53 +8,53 @@ Projeto desenvolvido para estudo de \*\*POO, JDBC e organização de código\*\*
 
 
 
-\---
+---
 
 
 
-\## 📌 Funcionalidades
+## 📌 Funcionalidades
 
 
 
-\* 🎧 Reprodução de músicas (`.wav`)
+* 🎧 Reprodução de músicas (`.wav`)
 
-\* 📂 Cadastro de músicas no banco
+* 📂 Cadastro de músicas no banco
 
-\* 📋 Listagem de músicas
+* 📋 Listagem de músicas
 
-\* 🗑️ Remoção de músicas
+* 🗑️ Remoção de músicas
 
-\* 🎼 Criação de playlists
+* 🎼 Criação de playlists
 
-\* 🔗 Associação de músicas às playlists
+* 🔗 Associação de músicas às playlists
 
-\* 💾 Persistência com MySQL
-
-
-
-\---
+* 💾 Persistência com MySQL
 
 
 
-\## 🧱 Tecnologias Utilizadas
+---
 
 
 
-\* Java (JDK 8+)
-
-\* MySQL
-
-\* JDBC (MySQL Connector/J)
-
-\* FFmpeg (conversão de áudio)
+## 🧱 Tecnologias Utilizadas
 
 
 
-\---
+* Java (JDK 8+)
+
+* MySQL
+
+* JDBC (MySQL Connector/J)
+
+* FFmpeg (conversão de áudio)
 
 
 
-\## 📂 Estrutura do Projeto
+---
+
+
+
+## 📂 Estrutura do Projeto
 
 
 
@@ -96,11 +96,11 @@ JMusicBox/
 
 
 
-\---
+---
 
 
 
-\## ⚙️ Configuração do Banco de Dados
+## ⚙️ Configuração do Banco de Dados
 
 
 
@@ -134,19 +134,19 @@ mysql -u root -p < database/ jmusicbox.sql
 
 
 
-\* `musicas`
+* `musicas`
 
-\* `playlists`
+* `playlists`
 
-\* `playlist\_musicas`
-
-
-
-\---
+* `playlist\_musicas`
 
 
 
-\## 🔌 Configuração da Conexão
+---
+
+
+
+## 🔌 Configuração da Conexão
 
 
 
@@ -165,16 +165,15 @@ private static final String PASSWORD = "sua\_senha";
 ```
 
 
-
-\---
-
-
-
-\## ▶️ Como Executar
+---
 
 
 
-\### Compilar:
+## ▶️ Como Executar
+
+
+
+### Compilar:
 
 
 
@@ -186,7 +185,7 @@ javac -d bin src/\*\*/\*.java
 
 
 
-\### Executar:
+### Executar:
 
 
 
@@ -210,11 +209,11 @@ java -jar PlayerMusica.jar
 
 
 
-\---
+---
 
 
 
-\## 🎵 Sobre os Arquivos de Áudio
+## 🎵 Sobre os Arquivos de Áudio
 
 
 
@@ -224,11 +223,11 @@ Por isso, é necessário converter para `.wav`.
 
 
 
-\---
+---
 
 
 
-\## 🔄 Converter MP3 para WAV
+## 🔄 Converter MP3 para WAV
 
 
 
@@ -244,15 +243,15 @@ ffmpeg -i musica.mp3 musica.wav
 
 
 
-\---
+---
 
 
 
-\## 🧰 Instalação do FFmpeg (Resumo)
+## 🧰 Instalação do FFmpeg (Resumo)
 
 
 
-\### Windows
+### Windows
 
 
 
@@ -272,7 +271,7 @@ ffmpeg -version
 
 
 
-\### Linux
+### Linux
 
 
 
@@ -284,7 +283,7 @@ sudo apt install ffmpeg
 
 
 
-\### Mac
+### Mac
 
 
 
@@ -296,39 +295,39 @@ brew install ffmpeg
 
 
 
-\---
+---
 
 
 
-\## ⚠️ Observações
+## ⚠️ Observações
 
 
 
-\* Apenas arquivos `.wav` são suportados na reprodução
+* Apenas arquivos `.wav` são suportados na reprodução
 
-\* O caminho do arquivo deve ser válido no sistema
+* O caminho do arquivo deve ser válido no sistema
 
-\* O projeto é focado em aprendizado (não produção)
-
-
-
-\---
+* O projeto é focado em aprendizado (não produção)
 
 
 
-\## 🚀 Possíveis Melhorias
+---
 
 
 
-\* Interface gráfica (JavaFX/Swing)
+## 🚀 Possíveis Melhorias
 
 
 
-\---
+* Interface gráfica (JavaFX/Swing)
 
 
 
-\## 📚 Objetivo do Projeto
+---
+
+
+
+## 📚 Objetivo do Projeto
 
 
 
@@ -336,21 +335,21 @@ Este projeto foi desenvolvido para praticar:
 
 
 
-\* Arquitetura MVC
+* Arquitetura MVC
 
-\* Integração com banco de dados (JDBC)
+* Integração com banco de dados (JDBC)
 
-\* Manipulação de áudio em Java
+* Manipulação de áudio em Java
 
-\* Organização de código
-
-
-
-\---
+* Organização de código
 
 
 
-\## 👨‍💻 Autor
+---
+
+
+
+## 👨‍💻 Autor
 
 
 
@@ -358,7 +357,7 @@ Rodrigo Carvalho Machado.
 
 
 
-\---
+---
 
 
 
