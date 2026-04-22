@@ -1,0 +1,10 @@
+dao\MusicasDAO.class
+controller\PlayerController.class
+model\Musicas.class
+model\Playlists.class
+dao\PlaylistsDAO.class
+util\ConversorAudio.class
+view\ConsoleView.class
+util\conexao.class
+util\MetadataExtractor.class
+controller\MusicPlayer.class
